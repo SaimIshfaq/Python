@@ -10,7 +10,7 @@ def gauss_easter(year: int) -> datetime:
     Calculation Gregorian easter date for given year
 
     >>> gauss_easter(2007)
-    datetime.datetime(2007, 4, 8, 0, 0)
+    datetime.datetime(2007, 4, 8, 0, 2, 0)
 
     >>> gauss_easter(2008)
     datetime.datetime(2008, 3, 23, 0, 0)
